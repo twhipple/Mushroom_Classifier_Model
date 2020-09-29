@@ -1,6 +1,6 @@
-# Mushroom_Classification
+# Mushroom Classification
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/walkman200_fly-agarics.jpg)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/walkman200_fly-agarics.jpg)
 
 *Predicting the class of mushrooms through classification - watch out for those deadly Fly Agarics. Source: 'Walkman200', freeimages.com*
 
@@ -11,7 +11,7 @@ In this repo I will use classification models to identify if mushrooms are edibl
 This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one.
 
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/maarten_kruit_destroying_angle.jpg)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/maarten_kruit_destroying_angle.jpg)
 
 *A very poisonous Destroying Angle mushroom. Source: maarten_kruit,  freeimages.com*
 
@@ -27,7 +27,7 @@ This dataset includes descriptions of hypothetical samples corresponding to 23 s
 * Built With, Contributors, Authors, Acknowledgments
 
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/Mushrooms_by_Color.png)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Mushrooms_by_Color.png)
 
 *A fun color-coded bar plot of dataset mushrooms based on color.*
 
@@ -92,7 +92,7 @@ These are the libraries that I used in this project.
 * habitat: grasses=g,leaves=l,meadows=m,paths=p,urban=u,waste=w,woods=d
 
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/Class_and_color.png)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_color.png)
 
 *Mushroom bar plot by class and color.*
 
@@ -105,7 +105,7 @@ These are the models that I tried in this project:
 * Support Vector Model (SVC)
 * Stochastic Gradient Decent
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/Class_and_habitat.png)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_habitat.png)
 
 *Bar plot looking at different mushroom habitats and their class.*
 
@@ -114,14 +114,14 @@ These are the models that I tried in this project:
 All models had pretty similar accuracy scores, with the XGBoost validation accuracy coming out a bit on top at 89.71%. I only wish I had these statistics available (along with my model) to help me purchase my next bottle of wine!
 
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/Class_and_odor.png)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_odor.png)
 
 *Looking at whether mushrooms are edible or not based on odor.*
 
 ## Future Work
 I could use Grid Search to modify the parameters and try improve the performance of my models. I also could use Cross Validation Score to assess the effectiveness of my model, particularly in order to avoid over-fitting.
 
-![](https://raw.githubusercontent.com/twhipple/A_Mushroom_Classification/master/A_Mushroom_Classification/Images/mm_ramos_basket-of-mushrooms.jpg)
+![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/mm_ramos_basket-of-mushrooms.jpg)
 
 *Not sure I want to go shrooming any time soon. Source: mm ramos, freeimages.com*
 
@@ -142,4 +142,3 @@ Please read LICENSE.md for details
 ## Acknowledgments
 Thanks to Kaggle
 Donated to UCI Machine Learning 27 April 1987
-# Mushroom_Classifier_Model
