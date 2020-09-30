@@ -1,5 +1,6 @@
 # Mushroom Classification
 
+
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/walkman200_fly-agarics.jpg)
 
 *Predicting the class of mushrooms through classification - watch out for those deadly Fly Agarics. Source: 'Walkman200', freeimages.com*
@@ -65,7 +66,6 @@ These are the libraries that I used in this project.
 * import xgboost as xgb
 
 
-
 ## Features
 * Attribute Information: (classes: edible=e, poisonous=p)
 * cap-shape: bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s
@@ -96,6 +96,7 @@ These are the libraries that I used in this project.
 
 *Mushroom bar plot by class and color.*
 
+
 ## Models
 These are the models that I tried in this project:
 * LogisticRegression
@@ -105,25 +106,29 @@ These are the models that I tried in this project:
 * Support Vector Model (SVC)
 * Stochastic Gradient Decent
 
+
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_habitat.png)
 
 *Bar plot looking at different mushroom habitats and their class.*
 
 
 ## Conclusions
-All models had pretty similar accuracy scores, with the XGBoost validation accuracy coming out a bit on top at 89.71%. I only wish I had these statistics available (along with my model) to help me purchase my next bottle of wine!
+Something is very wrong with my models... since they are all getting 100%. This means they are over-fitting. What can I do to correct this?
 
 
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_odor.png)
 
 *Looking at whether mushrooms are edible or not based on odor.*
 
+
 ## Future Work
-I could use Grid Search to modify the parameters and try improve the performance of my models. I also could use Cross Validation Score to assess the effectiveness of my model, particularly in order to avoid over-fitting.
+I would love to go find some mushrooms around my house and categorize them in order to determine if they are poisonous or not! For now I just need to work on fixing my models.
+
 
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/mm_ramos_basket-of-mushrooms.jpg)
 
-*Not sure I want to go shrooming any time soon. Source: mm ramos, freeimages.com*
+*Not sure I want to go shrooming any time soon after working with this data. Source: mm ramos, freeimages.com*
+
 
 ## Built With:
 Jupyter Notebook
