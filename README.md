@@ -36,10 +36,10 @@ This dataset includes descriptions of hypothetical samples corresponding to 23 s
 ## Repo Contents
 This repo contains the following:
 * README.md - this is where you are now!
-* Notebook.ipynb - the Jupyter Notebook containing the finalized code for this project.
+* Jupyter_Notebook.ipynb - the Jupyter Notebook containing the finalized code for this project.
+* PCA_and_Label_Encoding_Notebook.ipynb - a notebook where I tried some different approaches to issues.
 * LICENSE.md - the required license information.
-* Blog Post - the link to my Medium blog post pertaining to this project.
-* winequality-red.csv - the file containing the dataset in csv.
+* mushrooms.csv - the file containing the dataset in csv.
 * CONTRIBUTING.md 
 * Images
 
@@ -113,7 +113,11 @@ These are the models that I tried in this project:
 
 
 ## Conclusions
-Something is very wrong with my models... since they are all getting 100%. This means they are over-fitting. What can I do to correct this?
+All of my models were above 90% accuracy. The Random Forest Model had the best score with KNN and SVC pretty close.
+
+Originally all of my models were over-fitting and getting too close to 100% accuracy. I tried using PCA components to reduce the number of features but still found that the models needed less columns. I tried using Feature Selection as well but found that it wasn't working with all the similar column names from the one hot encoding.
+
+This has been an interesting data set with a few aspects that have really challenged me - in particular the purely numerous categorical columns and the feature selection.  I looked at a few examples of this Kaggle and noticed many people used Label Encoding verses One Hot Encoding. Plus, the PCA verses Feature Selection both added a lot of time to my project and I needed to review much data science and statistical information.
 
 
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/Class_and_odor.png)
@@ -122,7 +126,7 @@ Something is very wrong with my models... since they are all getting 100%. This 
 
 
 ## Future Work
-I would love to go find some mushrooms around my house and categorize them in order to determine if they are poisonous or not! For now I just need to work on fixing my models.
+I would love to go find some mushrooms around my house and categorize them in order to determine if they are poisonous or not! For now I just need to work on fixing my models. I want to do move work with feature selection - especially using the mushroom identifiers that I am most familiar with (such as size, cap-color, and location). Perhaps my model would fair better (though with lower accuracy) if I took out more of the the features.
 
 
 ![](https://raw.githubusercontent.com/twhipple/Mushroom_Classifier_Model/master/Images/mm_ramos_basket-of-mushrooms.jpg)
